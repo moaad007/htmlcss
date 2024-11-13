@@ -80,4 +80,40 @@ iframe {
     border-radius: 10px;
 }
 
+/*table css*/
+table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px; 
+      overflow: hidden; 
+    }
 
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #6050DC;
+      color: #fff;
+      font-size: 1.1em;
+     
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    td {
+      font-size: 1em;
+    }
+
+    caption {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
