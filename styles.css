@@ -127,3 +127,43 @@ iframe {
     border-radius: 10px;
 }
 
+
+
+
+.stats-table {
+    width: 80%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background-color: #FFF;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.stats-table thead {
+    background-color: #6050DC;  /* Majorelle Blue for table header */
+    color: #FFF;  /* White text in the header */
+}
+
+.stats-table th, .stats-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;  /* Light grey border */
+}
+
+.stats-table tr:nth-child(even) {
+    background-color: #f4f4f4;  /* Alternating row colors for better readability */
+}
+
+.stats-table tr:hover {
+    background-color: #e2e2e2;  /* Slight highlight on hover */
+}
+
+.stats-table td {
+    color: #1A3D5C;  /* Dark blue text for table data */
+    font-weight: 500;
+}
+
+.stats-table th {
+    font-weight: 700;
+}
