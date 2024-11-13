@@ -1,51 +1,4 @@
-/*{
-padding: 0;
-margin: 0;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    background-color:#BCF2F6;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    
-}
-p{
-    color: #FFF100;
-}
-.video{
-    width:1000px;
-    height: 600px;
-
-}
-.pvideo{
-    width:1000px;
-    height: 600px;
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   background:#fff;
-}
-.maps{
-    width:1000px;
-    height: 600px;
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   background:#fff;
-}
-.pmaps{
-    width:1000px;
-    height: 600px;
-
-}
-.para{
- font-size: medium;
- font-weight: 700;
- width:1000px;
-}
-*/ 
+ 
 * {
     padding: 0;
     margin: 0;
@@ -55,7 +8,7 @@ p{
 body {
     display: flex;
     flex-direction: column;
-    background-color: #F8F8F8;  /* Soft White background */
+    background-color: #F8F8F8;  
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -63,13 +16,13 @@ body {
 }
 
 h1 {
-    color: #6050DC;  /* Majorelle Blue for the heading */
+    color: #6050DC;  
     font-size: 2.5rem;
     text-align: center;
 }
 
 p {
-    color: #1A3D5C;  /* Dark Blue text for the paragraph */
+    color: #1A3D5C;
     font-size: 1.2rem;
     font-weight: 400;
     width: 80%;
@@ -87,7 +40,7 @@ p {
     width: 100%;
     max-width: 1000px;
     height: 600px;
-    border: 3px solid #6050DC;  /* Majorelle Blue border around the video */
+    border: 3px solid #6050DC;  
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
@@ -99,7 +52,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FFF;  /* Soft white background for the video container */
+    background: #FFF; 
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
@@ -111,7 +64,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FFF;  /* Soft white background for the map container */
+    background: #FFF;  
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
